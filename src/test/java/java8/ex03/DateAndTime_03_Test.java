@@ -51,7 +51,7 @@ public class DateAndTime_03_Test {
 
 		// TODO créer un objet localTime à l'heure 12h00m00s
 		// TODO utiliser la méthode of
-		LocalTime localTime = LocalTime.parse("12:00:00");
+		LocalTime localTime = LocalTime.of(12,00,00);
 
 		// TODO Formatter l'heure pour que le test soit passant
 		String result = localTime.format(DateTimeFormatter.ofPattern("HH:mm"));
